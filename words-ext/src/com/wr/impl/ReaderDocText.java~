@@ -14,7 +14,7 @@ public class ReaderDocText implements Reader {
 
 	@Override
 	public List<String> read(String path) throws FileNotFoundException {
-		System.out.println();
+		
 		BufferedReader buffer = new BufferedReader(new FileReader(path));
 		Set<String> words = new TreeSet<String>();
 	try {	int k = 0;
